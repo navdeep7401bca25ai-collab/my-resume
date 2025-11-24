@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navdeep singh — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Portfolio of Navdeep singh — developer, designer, creator.">
+</head>
+<body>
+    <header class="site-header">
+        <div class="wrap header-inner">
+            <a class="logo" href="#">Navdeep singh</a>
+            <nav aria-label="Main navigation">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="wrap hero-inner">
+                <div class="hero-left">
+                    <h1>Hi, I'm <span class="accent">Navdeep singh</span></h1>
+                    <p class="subtitle">Product Designer & Frontend Developer building delightful, <span id="animated-phrase" class="typed" aria-live="polite">accessible web experiences.</span></p>
+
+                    <div class="cta">
+                        <a class="btn primary" href="#projects">See Projects</a>
+                        <a class="btn ghost" href="#contact">Get In Touch</a>
+                        <a class="btn outline" href="#" download>Download Resume</a>
+                        <!-- <button id="cartoon-btn" class="btn outline" type="button">Cartoonize & Download</button> -->
+                    </div>
+                </div>
+
+                <div class="hero-right">
+                    <img id="profile-photo" class="avatar-img" alt="Navdeep Singh profile photo" src="Create a cartoon-sty.png" onerror="this.style.display='none'" />
+                    <div class="avatar" aria-hidden="true">N</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="wrap about">
+            <h2>About Me</h2>
+            <p class="lead">I design and build beautiful, accessible interfaces. I love turning ideas into products that people enjoy using. Below you'll find a selection of my work and a summary of my experience.</p>
+
+            <div class="about-grid">
+                <div class="card">
+                    <h3>Brief Bio</h3>
+                    <p>I’m Navdeep Singh, a Full Stack Developer passionate about building dynamic, user-friendly web applications. Skilled in both front-end and back-end technologies, I create seamless digital experiences by combining clean design with efficient code. I love solving problems, experimenting with new tools, and continuously learning to stay ahead in the ever-evolving tech world.
+.</p>
+                </div>
+                <div class="card">
+                    <h3>Contact</h3>
+                    <p><strong>Email:</strong> <a href="mailto:navi28261@gmail.com">navi28261@gmail.com</a></p>
+                    <p><strong>Location:</strong> Mohali, India</p>
+                </div>
+                <div class="card">
+                    <h3>Availability</h3>
+                    <p>Open to opportunities — freelance, contract, or full-time. Available to start: Immediately.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="wrap skills">
+            <h2>Skills</h2>
+            <p class="lead">Tools and technologies I use regularly.</p>
+            <ul class="skill-list">
+                <li>HTML & CSS</li>
+                <li>JavaScript (ES6+)</li>
+                <li>React / Vue</li>
+                <li>TypeScript</li>
+                <li>Design Systems & Figma</li>
+                <li>Accessibility (A11y)</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="wrap projects">
+            <h2>Selected Projects</h2>
+            <p class="lead">A few highlights — click to view details or visit the repo.</p>
+
+            <div class="project-grid">
+                <article class="project">
+                    <div class="project-media" aria-hidden="true"></div>
+                    <h3>Project One</h3>
+                    <p>Short description of the project, the problem it solves, and the technologies used.</p>
+                    <div class="project-links">
+                        <a class="link" href="#">Live</a>
+                        <a class="link" href="#">Source</a>
+                    </div>
+                </article>
+
+                <article class="project">
+                    <div class="project-media" aria-hidden="true"></div>
+                    <h3>Project Two</h3>
+                    <p>Short description of the project, the problem it solves, and the technologies used.</p>
+                    <div class="project-links">
+                        <a class="link" href="#">Live</a>
+                        <a class="link" href="#">Source</a>
+                    </div>
+                </article>
+
+                <article class="project">
+                    <div class="project-media" aria-hidden="true"></div>
+                    <h3>Project Three</h3>
+                    <p>Short description of the project, the problem it solves, and the technologies used.</p>
+                    <div class="project-links">
+                        <a class="link" href="#">Live</a>
+                        <a class="link" href="#">Source</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="experience" class="wrap experience">
+            <h2>Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h4>Senior Frontend Developer — Company A</h4>
+                    <span class="muted">2022 - Present</span>
+                    <p>Short responsibilities and achievements; focus on impact and metrics.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <h4>Frontend Developer — Company B</h4>
+                    <span class="muted">2019 - 2022</span>
+                    <p>Short responsibilities and achievements; focus on impact and metrics.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="wrap contact">
+            <h2>Contact</h2>
+            <p class="lead">Want to work together or have a question? Send a message.</p>
+
+            <form class="contact-form" action="#" method="post" aria-label="Contact form">
+                <div class="form-grid">
+                    <label>
+                        <span class="sr-only">Name</span>
+                        <input name="name" type="text" placeholder="Your name" required>
+                    </label>
+                    <label>
+                        <span class="sr-only">Email</span>
+                        <input name="email" type="email" placeholder="you@example.com" required>
+                    </label>
+                </div>
+
+                <label>
+                    <span class="sr-only">Message</span>
+                    <textarea name="message" rows="6" placeholder="Tell me about your project" required></textarea>
+                </label>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn primary">Send Message</button>
+                    <button type="reset" class="btn">Reset</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap footer-inner">
+            <p>&copy; <span id="year"></span>Navdeep singh— Built with ❤️.</p>
+            <div class="social">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
+                <a href="https://www.linkedin.com/in/navdeep-singh-51b573356" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a>
+                <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Twitter">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Profile image is provided as a file in the same folder. We use it directly and keep the letter fallback.
+
+        // Smooth scrolling for internal links with header offset
+        function initSmoothScroll(){
+            const header = document.querySelector('.site-header');
+            const headerHeight = header ? header.getBoundingClientRect().height : 0;
+
+            function scrollToEl(el){
+                if(!el) return;
+                const top = el.getBoundingClientRect().top + window.pageYOffset - Math.round(headerHeight) - 12; // small extra gap
+                window.scrollTo({ top: top, behavior: 'smooth' });
+            }
+
+            // handle clicks on anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(a=>{
+                a.addEventListener('click', e=>{
+                    const href = a.getAttribute('href');
+                    if(!href || href === '#') return; // ignore empty or top-only
+                    const el = document.querySelector(href);
+                    if(el){ e.preventDefault(); scrollToEl(el); history.replaceState(null, '', href); }
+                });
+            });
+
+            // If page loaded with a hash, smooth-scroll to it after layout
+            if(window.location.hash){
+                const target = document.querySelector(window.location.hash);
+                if(target){ setTimeout(()=> scrollToEl(target), 120); }
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function(){
+            // If the provided profile image loads successfully, hide the letter fallback.
+            const imgEl = document.getElementById('profile-photo');
+            const fallback = document.querySelector('.avatar');
+            if(imgEl){
+                imgEl.addEventListener('load', function(){ if(fallback) fallback.style.display = 'none'; });
+                // if already loaded (cached), and has size, hide fallback
+                if(imgEl.complete && imgEl.naturalWidth && fallback){ fallback.style.display = 'none'; }
+            }
+            initSmoothScroll();
+        });
+
+        // Typing / deleting loop for the animated phrase (per-character animation to reduce flicker)
+        (function(){
+            const el = document.getElementById('animated-phrase');
+            if(!el) return;
+            const phrase = el.textContent.trim();
+
+            // Respect reduced motion preference
+            if(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+                el.classList.remove('typed');
+                return;
+            }
+
+            el.classList.add('caret');
+            el.textContent = '';
+
+            const typingSpeed = 75; // ms per char
+            const deletingSpeed = 40; // ms per char
+            const pauseAfterTyped = 1200;
+            const pauseAfterDeleted = 400;
+
+            function createCharSpan(ch){
+                const s = document.createElement('span');
+                // preserve visible spacing for space characters by using a non-breaking space
+                if(ch === ' ') s.innerHTML = '&nbsp;';
+                else s.textContent = ch;
+                return s;
+            }
+
+            function revealSpan(s){
+                requestAnimationFrame(()=>{
+                    s.style.opacity = '1';
+                    s.style.transform = 'translateY(0)';
+                });
+            }
+
+            async function typeOnce(){
+                // type chars
+                for(let i=0;i<phrase.length;i++){
+                    const ch = phrase[i];
+                    const span = createCharSpan(ch);
+                    el.appendChild(span);
+                    // ensure transition runs
+                    revealSpan(span);
+                    await new Promise(r=>setTimeout(r, typingSpeed));
+                }
+                await new Promise(r=>setTimeout(r, pauseAfterTyped));
+
+                // delete chars
+                for(let i=phrase.length-1;i>=0;i--){
+                    const last = el.lastElementChild;
+                    if(!last) break;
+                    // animate out
+                    last.style.opacity = '0';
+                    last.style.transform = 'translateY(-6px)';
+                    await new Promise(r=>setTimeout(()=>{ last.remove(); r(); }, deletingSpeed));
+                }
+                await new Promise(r=>setTimeout(r, pauseAfterDeleted));
+            }
+
+            // loop
+            (async function loop(){
+                await new Promise(r=>setTimeout(r, 300));
+                while(true){ await typeOnce(); }
+            })();
+        })();
+
+        /* Cartoonize & download button: generates a stylized PNG from the provided image and triggers download */
+        (function(){
+            function posterize(data, levels){
+                const step = 256/levels;
+                for(let i=0;i<data.length;i+=4){
+                    data[i] = Math.floor(data[i]/step)*step;
+                    data[i+1] = Math.floor(data[i+1]/step)*step;
+                    data[i+2] = Math.floor(data[i+2]/step)*step;
+                }
+            }
+
+            function sobelEdge(data, w, h){
+                const gray = new Float32Array(w*h);
+                for(let y=0;y<h;y++){
+                    for(let x=0;x<w;x++){
+                        const i = (y*w + x)*4;
+                        gray[y*w + x] = 0.299*data[i] + 0.587*data[i+1] + 0.114*data[i+2];
+                    }
+                }
+                const out = new Float32Array(w*h);
+                const gx = [-1,0,1,-2,0,2,-1,0,1];
+                const gy = [-1,-2,-1,0,0,0,1,2,1];
+                for(let y=1;y<h-1;y++){
+                    for(let x=1;x<w-1;x++){
+                        let sx=0, sy=0, k=0;
+                        for(let ky=-1; ky<=1; ky++){
+                            for(let kx=-1; kx<=1; kx++){
+                                const val = gray[(y+ky)*w + (x+kx)];
+                                sx += gx[k]*val; sy += gy[k]*val; k++;
+                            }
+                        }
+                        out[y*w + x] = Math.sqrt(sx*sx + sy*sy);
+                    }
+                }
+                return out;
+            }
+
+            function cartoonizeImage(src, maxSize, cb){
+                const img = new Image();
+                img.crossOrigin = 'anonymous';
+                img.onload = function(){
+                    const ratio = img.width / img.height;
+                    let w = maxSize, h = Math.round(maxSize / ratio);
+                    if(img.width < img.height){ h = maxSize; w = Math.round(maxSize * ratio); }
+                    const canvas = document.createElement('canvas');
+                    canvas.width = w; canvas.height = h;
+                    const ctx = canvas.getContext('2d');
+                    ctx.drawImage(img, 0, 0, w, h);
+
+                    const id = ctx.getImageData(0,0,w,h);
+                    const base = new Uint8ClampedArray(id.data);
+                    posterize(base, 6);
+                    const edges = sobelEdge(id.data, w, h);
+                    const out = ctx.createImageData(w,h);
+                    for(let y=0;y<h;y++){
+                        for(let x=0;x<w;x++){
+                            const idx = (y*w + x);
+                            const di = idx*4;
+                            out.data[di] = base[di]; out.data[di+1] = base[di+1]; out.data[di+2] = base[di+2]; out.data[di+3] = 255;
+                            const e = edges[idx];
+                            if(e > 60){
+                                out.data[di] = Math.max(0, out.data[di] - 70);
+                                out.data[di+1] = Math.max(0, out.data[di+1] - 70);
+                                out.data[di+2] = Math.max(0, out.data[di+2] - 70);
+                            }
+                        }
+                    }
+                    ctx.putImageData(out,0,0);
+                    cb(canvas.toDataURL('image/png'));
+                };
+                img.onerror = function(){ cb(null); };
+                img.src = src;
+            }
+
+            document.addEventListener('DOMContentLoaded', function(){
+                const btn = document.getElementById('cartoon-btn');
+                if(!btn) return;
+                btn.addEventListener('click', function(){
+                    const profile = document.getElementById('profile-photo');
+                    const src = (profile && profile.src) ? profile.src : 'Professional portrai.png';
+                    btn.disabled = true; btn.textContent = 'Processing...';
+                    cartoonizeImage(src, 800, function(dataUrl){
+                        btn.disabled = false; btn.textContent = 'Cartoonize & Download';
+                        if(!dataUrl){ alert('Cartoonization failed. Make sure the image file is available in the same folder.'); return; }
+                        let preview = document.getElementById('cartoon-preview');
+                        if(!preview){ preview = document.createElement('img'); preview.id = 'cartoon-preview'; preview.className = 'cartoon-preview'; document.querySelector('.hero-right').appendChild(preview); }
+                        preview.src = dataUrl;
+                        const a = document.createElement('a'); a.href = dataUrl; a.download = 'cartoon-sty.png'; document.body.appendChild(a); a.click(); a.remove();
+                    });
+                });
+            });
+        })();
+    </script>
+</body>
+</html>
